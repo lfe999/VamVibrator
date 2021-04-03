@@ -63,9 +63,6 @@ namespace LFE {
                 if(morph != null) {
                     previousMorphChange[item.Key] = 0.0f;
                 }
-                else {
-                    SuperController.LogError($"No morph {item.Key}");
-                }
             }
         }
 
